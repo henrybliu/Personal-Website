@@ -1,4 +1,4 @@
-.contactContainer {
+.contactContainer2 {
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
   padding: 10px;
   border-radius: 12px;
@@ -8,24 +8,24 @@
   font-size: 1.3rem;
   font-weight: 800;
   padding: 15px 25px;
-  color: #4361ee;
+  color: #faf9f6;
+  background-color: #4361ee;
   width: 120px;
   height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #faf9f6;
 }
 
-.contactContainer:hover {
+.contactContainer2:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.contactContainer a {
+.contactContainer2 a {
   text-decoration: none;
 }
 
-.contactContainer a {
-  color: #3e5dd2;
+.contactContainer2 a {
+  color: #faf9f6;
 }

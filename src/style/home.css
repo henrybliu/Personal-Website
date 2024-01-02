@@ -1,6 +1,5 @@
 .homeContainer {
-  margin-top: -90px;
-  height: 100vh;
+  height: calc(100vh - 90px);
   width: 100vw;
   color: #2a2a2a;
 }
@@ -8,7 +7,7 @@
 .homeContent {
   height: 100%;
   width: 100%;
-  padding: 120px 120px;
+  padding: 0 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +17,6 @@
   padding: 15px;
   height: 100%;
   width: 100%;
-  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,9 +30,10 @@
 }
 
 .leftHome h2 {
-  padding-left: 15px;
   color: #474747;
   margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .rightHome {
@@ -50,4 +49,5 @@
 .rightHome img {
   width: 100%;
   height: auto;
+  padding: 15px;
 }

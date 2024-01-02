@@ -1,5 +1,67 @@
 .aboutContainer {
-  margin-bottom: -90px;
-  height: 100vh;
+  height: calc(100vh - 90px);
   width: 100vw;
+  color: #2a2a2a;
+}
+
+.aboutContent {
+  height: 100%;
+  width: 100%;
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightAbout {
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.topRightAbout {
+  display: flex;
+  align-items: center;
+  font-size: 1.85rem;
+}
+
+.rightAbout h2 {
+  color: #474747;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.leftAbout {
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
 }
