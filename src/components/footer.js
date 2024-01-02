@@ -18,9 +18,8 @@ const Footer = () => {
             <h1>Thanks for visiting!</h1>
           </div>
           <h2>
-            If you have any questions or comments, feel free to reach out and
-            contact me! I'd love to hear from you, or if you just want to say hi
-            and connect!
+            I'd love to hear from you! Please feel free to reach out with any
+            questions, comments, or just to say hello.
           </h2>
         </div>
         <div className="rightFooter">

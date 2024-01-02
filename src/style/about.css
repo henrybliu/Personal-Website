@@ -31,9 +31,13 @@
 
 .rightAbout h2 {
   color: #474747;
-  margin-bottom: 20px;
   font-size: 1.45rem;
   line-height: 1.5;
+}
+
+.rightAbout #bottomH2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .leftAbout {
@@ -63,5 +67,5 @@
 
 .buttons {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }

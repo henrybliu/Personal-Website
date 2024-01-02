@@ -24,8 +24,8 @@ const About = () => {
             I'm a Computer Engineering student at the University of California,
             San Diego with experience in full stack development, network
             software engineering, and machine learning.
-            <br></br>
-            <br></br>
+          </h2>
+          <h2 id="bottomH2">
             In my free time, I love snowboarding, soccer, and anything outdoors.
             Currently, I am training for my first marathon!
           </h2>
