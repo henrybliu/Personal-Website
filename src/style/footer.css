@@ -17,21 +17,21 @@
 .leftFooter {
   height: 100%;
   width: 70%;
-  padding: 20px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 20px;
+  row-gap: 15px;
 }
 
 .leftFooter h1 {
   color: #4361ee;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .leftFooter h2 {
   color: #2a2a2a;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
@@ -42,9 +42,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.5;
-  gap: 15px;
+  gap: 20px;
 }
 
 .rightFooter span {
@@ -53,4 +53,11 @@
 
 .rightFooter a {
   color: #4361ee;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.rightFooter a:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }

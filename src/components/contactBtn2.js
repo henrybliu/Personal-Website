@@ -5,11 +5,11 @@ const ContactBtn2 = () => {
   return (
     <div className="contactContainer2">
       <a
-        href="mailto:11.henrybliu@gmail.com"
+        href="https://www.linkedin.com/in/henrybliu/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Contact
+        Connect
       </a>
     </div>
   );

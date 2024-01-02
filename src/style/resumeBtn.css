@@ -21,3 +21,11 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+
+.resumeContainer a {
+  text-decoration: none;
+}
+
+.resumeContainer a {
+  color: #faf9f6;
+}

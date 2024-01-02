@@ -20,7 +20,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.2rem;
 }
 
 .topLeftHome {
@@ -32,7 +31,7 @@
 .leftHome h2 {
   color: #474747;
   margin-bottom: 20px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
