@@ -2,11 +2,14 @@
   height: calc(100vh - 90px);
   width: 100vw;
   color: #2a2a2a;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutContent {
   height: 100%;
   width: 100%;
+  max-width: 2000px;
   padding: 0 120px;
   display: flex;
   align-items: center;
@@ -52,7 +55,7 @@
 
 .imgContainer {
   width: 80%;
-  height: 80%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,11 +64,20 @@
 }
 
 .imgContainer img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .buttons {
   display: flex;
   gap: 25px;
+}
+
+@media screen and (min-width: 2000px) {
+  .topRightAbout {
+    font-size: 2.3rem;
+  }
+  .rightAbout h2 {
+    font-size: 2rem;
+  }
 }

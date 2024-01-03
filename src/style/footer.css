@@ -3,12 +3,27 @@
   width: 100vw;
   background-color: #d3d3d3;
   /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+  display: flex;
+  justify-content: center;
 }
 
 .footerContent {
   height: 100%;
   width: 100%;
+  max-width: 2000px;
   padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent h3 {
+  color: #474747;
+  font-size: 0.9rem;
+}
+
+.topFooter {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,4 +75,10 @@
 .rightFooter a:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+@media screen and (min-height: 1000px) {
+  .footerContainer {
+    height: 20vh;
+  }
 }
