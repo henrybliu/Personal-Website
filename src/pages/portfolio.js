@@ -7,13 +7,12 @@ const Portfolio = () => {
   return (
     <div className="portfolioContainer" id="portfolio">
       <div className="portfolioContent">
-        <div className="topPortfolio">
-          <div className="portfolioTitle">
-            <Dash></Dash>
-            <h1>My portfolio 🎨</h1>
-          </div>
-          <div className="filters"> Filters</div>
+        <div className="portfolioTitle">
+          <Dash></Dash>
+          <h1>My portfolio 🎨</h1>
         </div>
+        <div className="filters"> Filters</div>
+
         <div className="showcase">showcase section</div>
       </div>
     </div>
