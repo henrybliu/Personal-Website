@@ -1,0 +1,27 @@
+.btnContainer {
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 16px;
+  transform: scale(1);
+  transition: transform 0.2s;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 15px 25px;
+  color: #4361ee;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf9f6;
+}
+
+.btnContainer:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btnContainer a {
+  text-decoration: none;
+  color: #3e5dd2;
+}

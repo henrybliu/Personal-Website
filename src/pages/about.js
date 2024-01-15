@@ -1,10 +1,9 @@
 import React from "react";
 import "../style/about.css";
-import profPic from "../images/profPic.webp";
+import profPic from "../images/profPic.png";
 
 import Dash from "../components/dash";
-import ContactBtn2 from "../components/contactBtn2";
-import ResumeBtn from "../components/resumeBtn";
+import Btn2 from "../components/btn2";
 
 const About = () => {
   return (
@@ -26,12 +25,18 @@ const About = () => {
             software engineering, and machine learning.
           </h2>
           <h2 id="bottomH2">
-            In my free time, I love snowboarding, soccer, and anything outdoors.
-            Currently, I am training for my first marathon!
+            In my free time, I love snowboarding, soccer, and trying new
+            recipes. Currently, I am training for my first half-marathon!
           </h2>
           <div className="buttons">
-            <ResumeBtn />
-            <ContactBtn2 />
+            <Btn2
+              text="Resumé"
+              link="https://drive.google.com/file/d/1RP7j51_27Tmp-WYZyj2d0Dd68xVCg9nW/view"
+            />
+            <Btn2
+              text="Connect"
+              link="https://www.linkedin.com/in/henrybliu/"
+            />
           </div>
         </div>
       </div>

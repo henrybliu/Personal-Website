@@ -13,11 +13,9 @@
   padding: 0 120px;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .leftHome {
-  padding: 15px;
   height: 100%;
   width: 100%;
   display: flex;
@@ -28,7 +26,7 @@
 .topLeftHome {
   display: flex;
   align-items: center;
-  font-size: 1.85rem;
+  font-size: 2.3rem;
 }
 
 .leftHome h2 {
@@ -39,7 +37,6 @@
 }
 
 .rightHome {
-  padding: 15px;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -55,8 +52,8 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .topLeftHome {
-    font-size: 2.6rem;
+  .topLeftHome h1 {
+    font-size: 6rem;
   }
   .leftHome h2 {
     font-size: 2.5rem;

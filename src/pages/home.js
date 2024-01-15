@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/home.css";
-import cartoon from "../images/landingCartoon.webp";
+import cartoon from "../images/landingCartoon.png";
 
 import Dash from "../components/dash";
 import BrowseBtn from "../components/browseBtn";

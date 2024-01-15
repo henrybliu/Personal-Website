@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
-import "../style/browseBtn.css";
+import "../style/btn2.css";
 
 const BrowseBtn = () => {
   return (
     <div>
       <Link
-        className="browseContainer"
+        className="btn2Container"
         to="portfolio"
         spy={true}
         smooth={true}

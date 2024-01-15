@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import "../style/navBar.css";
 
-import ContactBtn from "./contactBtn";
+import Btn from "./btn";
 
 const NavBar = () => {
   return (
@@ -31,7 +31,7 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="contact">
-          <ContactBtn />
+          <Btn text="Connect" link="https://www.linkedin.com/in/henrybliu/" />
         </div>
       </div>
     </div>

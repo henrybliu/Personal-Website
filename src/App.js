@@ -24,6 +24,12 @@ function App() {
             </div>
           }
         />
+        <Route path="/cohere" />
+        <Route path="/ECETutor" />
+        <Route path="/scripps" />
+        <Route path="/viasat2023" />
+        <Route path="/viasat2022" />
+        <Route path="/paloVerde" />
       </Routes>
       <Footer />
     </Router>
