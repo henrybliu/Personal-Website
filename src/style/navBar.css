@@ -23,15 +23,15 @@
   color: #4361ee;
 }
 
-.name {
+.name h2 {
   color: #2a2a2a;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   transform: scale(1);
   transition: transform 0.2s;
 }
 
-.name:hover {
+.name h2:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -42,7 +42,7 @@
   justify-content: space-between;
 }
 
-.sections a {
+.sections h2 {
   transform: scale(1);
   transition: transform 0.2s;
   font-size: 1.5rem;
@@ -50,7 +50,7 @@
   margin-right: 15px;
 }
 
-.sections a:hover {
+.sections h2:hover {
   cursor: pointer;
   transform: scale(1.15);
 }

@@ -1,34 +1,38 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 import "../style/navBar.css";
 
 import Btn from "./btn";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+
+  const handleNav = (section, offset) => {
+    navigate("/");
+
+    setTimeout(() => {
+      const element = document.getElementById(section);
+
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      if (element) {
+        window.scrollTo({
+          behavior: "smooth",
+          top: offsetPosition,
+        });
+      }
+    }, 0);
+  };
   return (
     <div className="navContainer">
       <div className="navContent">
         <div className="name">
-          <Link to="home" spy={true} smooth={true} offset={-90} duration={500}>
-            Henry Liu
-          </Link>
+          <h2 onClick={() => handleNav("home", 90)}>Henry Liu</h2>
         </div>
         <div className="sections">
-          <Link to="home" spy={true} smooth={true} offset={-90} duration={500}>
-            Home
-          </Link>
-          <Link
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            offset={-90}
-            duration={500}
-          >
-            Portfolio
-          </Link>
-          <Link to="about" spy={true} smooth={true} offset={-90} duration={500}>
-            About
-          </Link>
+          <h2 onClick={() => handleNav("home", 90)}>Home</h2>
+          <h2 onClick={() => handleNav("portfolio", 90)}>Portfolio</h2>
+          <h2 onClick={() => handleNav("about", 90)}>About</h2>
         </div>
         <div className="contact">
           <Btn text="Connect" link="https://www.linkedin.com/in/henrybliu/" />

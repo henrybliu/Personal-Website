@@ -40,25 +40,71 @@ const Portfolio = () => {
         <div className="projects">
           <h2>Projects</h2>
           <div className="projectGrid">
-            <Project projectName="Sprout" background={progress} />
-            <Project projectName="Tic-Tac-Toe Model" background={progress} />
-            <Project projectName="This Website!" background={cooking} />
-            <Project projectName="Henry's Barbershop" background={barbershop} />
-            <Project projectName="Theta Tau Website" background={gears} />
-            <Project projectName="Predicting CVD" background={heart} />
+            <Project
+              projectName="Sprout"
+              background={progress}
+              link="/sprout"
+            />
+            <Project
+              projectName="Tic-Tac-Toe Model"
+              background={progress}
+              link="/ticTacToeModel"
+            />
+            <Project
+              projectName="This Website!"
+              background={cooking}
+              link="/aboutMyWebsite"
+            />
+            <Project
+              projectName="Henry's Barbershop"
+              background={barbershop}
+              link="/henrsBarbershop"
+            />
+            <Project
+              projectName="Theta Tau Website"
+              background={gears}
+              link="/thetaTauWebsite"
+            />
+            <Project
+              projectName="Predicting CVD"
+              background={heart}
+              link="/predictingCVD"
+            />
             <Project
               projectName="Bitcoin Hash &amp; Miner"
               background={blockchain}
+              link="/bitcoinHash&amp;Miner"
             />
-            <Project projectName="FloWeaver" background={boat} />
-            <Project projectName="Leetcode" background={leetcode} />
+            <Project
+              projectName="FloWeaver"
+              background={boat}
+              link="/floWeaver"
+            />
+            <Project
+              projectName="Leetcode"
+              background={leetcode}
+              link="/leetcode"
+            />
             <Project
               projectName="Instagram Unfollowers"
               background={detective}
+              link="/instagramUnfollowers"
             />
-            <Project projectName="Tarot Card Game" background={tarot} />
-            <Project projectName="Everglow" background={everglow} />
-            <Project projectName="Whack-A-Mole" background={moles} />
+            <Project
+              projectName="Tarot Card Game"
+              background={tarot}
+              link="tarotCardGame"
+            />
+            <Project
+              projectName="Everglow"
+              background={everglow}
+              link="everglow"
+            />
+            <Project
+              projectName="Whack-A-Mole"
+              background={moles}
+              link="/whackAMole"
+            />
           </div>
         </div>
         <div className="experience">
@@ -69,36 +115,42 @@ const Portfolio = () => {
               company="Cohere Health"
               duration="January 2024 - Present"
               background={cohere}
+              link="/cohere"
             />
             <ExperienceItem
               position="ECE Tutor (C++)"
               company="UC San Diego ECE Department"
               duration="September 2023 - December 2023"
               background={fah}
+              link="/ECETutor"
             />
             <ExperienceItem
               position="Undergraduate Research Assistant"
               company="Scripps Institution of Oceanography"
               duration="August 2023 - September 2023"
               background={scripps}
+              link="/scripps"
             />
             <ExperienceItem
               position="Full Stack Software Engineer Intern"
               company="Viasat"
               duration="June 2023 - September 2023"
               background={viasat2}
+              link="/viasat2023"
             />
             <ExperienceItem
               position="Software Engineer Intern"
               company="Viasat"
               duration="June 2022 - September 2022"
               background={viasat}
+              link="/viasat2022"
             />
             <ExperienceItem
               position="Software Engineer Intern"
               company="Palo Verde Generating Station"
               duration="June 2021 - August 2021"
               background={aps}
+              link="/paloVerde"
             />
           </div>
         </div>

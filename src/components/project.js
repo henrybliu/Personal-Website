@@ -1,18 +1,21 @@
 import React from "react";
+import { NavLink as Link } from "react-router-dom";
 import "../style/project.css";
 
-const Project = ({ projectName, background }) => {
+const Project = ({ projectName, background, link }) => {
   return (
-    <div className="projectContainer">
-      <div className="projectContent">
-        <div className="topProject">
-          <img src={background} alt="background" />
-        </div>
-        <div className="bottomProject">
-          <h2>{projectName}</h2>
+    <Link to={link}>
+      <div className="projectContainer">
+        <div className="projectContent">
+          <div className="topProject">
+            <img src={background} alt="background" />
+          </div>
+          <div className="bottomProject">
+            <h2>{projectName}</h2>
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
