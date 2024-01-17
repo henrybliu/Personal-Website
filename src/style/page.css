@@ -5,7 +5,6 @@
   color: #2a2a2a;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -71,8 +70,7 @@
   .pageContent {
     width: 100vw;
     padding: 30px 30px;
-    /* background-color: pink; */
-    /* background-color: green; */
+
     flex-direction: column-reverse;
     justify-content: center;
     overflow-wrap: break-word;

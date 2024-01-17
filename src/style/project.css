@@ -57,11 +57,7 @@
 }
 
 @media screen and (max-width: 1150px) {
-  /* .projectContainer {
-    height: 400px;
-  } */
   .bottomProject h2 {
-    /* background-color: red; */
     font-size: 1.4rem;
   }
 }

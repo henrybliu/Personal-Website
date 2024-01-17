@@ -66,7 +66,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 30px 30px;
-    /* background-color: green; */
   }
   .leftHome {
     height: auto;
@@ -81,7 +80,6 @@
   .rightHome {
     height: 50%;
     margin-top: 5%;
-    /* background-color: yellow; */
   }
   .btnArea {
     padding: 0 20px;

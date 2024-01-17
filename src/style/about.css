@@ -28,7 +28,6 @@
 .topRightAbout {
   display: flex;
   align-items: center;
-
   font-size: 1.85rem;
 }
 
@@ -86,36 +85,28 @@
   .aboutContainer {
     height: auto;
     min-height: calc(100vh - 80px);
-    /* background-color: blue; */
   }
   .aboutContent {
     width: 100vw;
     padding: 30px 30px;
-    /* background-color: pink; */
-    /* background-color: green; */
+
     flex-direction: column-reverse;
     justify-content: center;
   }
   .leftAbout {
-    /* background-color: red; */
     height: auto;
     width: 100%;
     justify-content: center;
-    /* background-color: yellow; */
     margin-top: 5%;
   }
 
   .rightAbout {
-    /* background-color: blue; */
     height: auto;
-    /* background-color: green; */
-    /* background-color: green; */
   }
 
   .imgContainer {
     height: auto;
     width: 85%;
-    /* background-color: green; */
   }
 
   .imgContainer img {
