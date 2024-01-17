@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBurger } from "@fortawesome/free-solid-svg-icons";
+
 import "../style/navBar.css";
 
 import Btn from "./btn";
+import Menu from "./menu";
 
 const NavBar = () => {
+  const [showMenu, setShowMenu] = useState(false);
   const navigate = useNavigate();
 
   const handleNav = (section, offset) => {
@@ -23,6 +28,11 @@ const NavBar = () => {
       }
     }, 0);
   };
+
+  const closeMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <div className="navContainer">
       <div className="navContent">
@@ -35,9 +45,22 @@ const NavBar = () => {
           <h2 onClick={() => handleNav("about", 90)}>About</h2>
         </div>
         <div className="contact">
-          <Btn text="Connect" link="https://www.linkedin.com/in/henrybliu/" />
+          <Btn
+            id="connectBtn"
+            text="Connect"
+            link="https://www.linkedin.com/in/henrybliu/"
+          />
+        </div>
+        <div className="menu">
+          <FontAwesomeIcon
+            icon={faBurger}
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
+          />
         </div>
       </div>
+      <Menu show={showMenu} handleNav={handleNav} closeMenu={closeMenu}></Menu>
     </div>
   );
 };

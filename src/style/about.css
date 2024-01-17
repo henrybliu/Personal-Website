@@ -83,6 +83,7 @@
 
 @media screen and (max-width: 950px) {
   .aboutContainer {
+    display: block;
     height: auto;
     min-height: calc(100vh - 80px);
   }

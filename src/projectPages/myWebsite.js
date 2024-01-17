@@ -21,9 +21,11 @@ const MyWebsite = () => {
         <h3>About the project</h3>
         <p>
           This project serves as my "digital resume" and an excuse to show off
-          my doodles! Future plans for this website include implementing a CDN
-          to expedite the loading of images, considering the substantial number
-          of visuals featured.
+          my doodles! Additionally, my website incorporates a CDN to enhance the
+          loading speed of images, given the significant number of visuals
+          featured. I am actively optimizing various file types, including
+          scripts and stylesheets, through the CDN to reduce latency and
+          accelerate the overall user experience.
         </p>
         <h3> Project tech stack</h3>
 

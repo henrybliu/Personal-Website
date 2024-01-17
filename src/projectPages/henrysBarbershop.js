@@ -46,7 +46,7 @@ const HenrysBarbershop = () => {
         </p>
         <h3> Project tech stack</h3>
 
-        <p>Languages</p>
+        <p>Frontend</p>
         <li>React</li>
         <li>JavaScript</li>
         <li>Axios</li>

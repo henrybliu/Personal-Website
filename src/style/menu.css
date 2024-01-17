@@ -1,0 +1,40 @@
+.menuContainer {
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #faf9f6;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+}
+
+.menuContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Ubuntu";
+  padding-bottom: 100px;
+}
+
+.menuContent h1,
+.menuContent a,
+#closeMenu {
+  font-size: 3rem;
+  margin: 20px;
+  font-weight: 600;
+  color: #4361ee;
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.menuContainer h1:hover,
+.menuContainer a:hover,
+#closeMenu:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
