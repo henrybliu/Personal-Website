@@ -1,5 +1,5 @@
 .footerContainer {
-  height: 30vh;
+  height: 25vh;
   width: 100vw;
   background-color: #d3d3d3;
   display: flex;
@@ -20,6 +20,7 @@
 .footerContent h3 {
   color: #474747;
   font-size: 0.9rem;
+  margin-top: 10px;
 }
 
 .topFooter {
@@ -40,12 +41,12 @@
 
 .leftFooter h1 {
   color: #4361ee;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .leftFooter h2 {
   color: #2a2a2a;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
@@ -82,11 +83,11 @@
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1500px) {
   .leftFooter h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .leftFooter h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }

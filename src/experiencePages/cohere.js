@@ -8,16 +8,24 @@ const Cohere = () => {
       <div className="pageContent">
         <Dash />
         <h1>Cohere Health</h1>
-        <h2>A full stack software engineer intern at Cohere Health</h2>
+        <h2>Full Stack Software Engineer Intern</h2>
+        <h4>January 2024 - Present</h4>
         <h3>What does Cohere Health do?</h3>
         <p>
-          Cohere Health leverages AI and natural language processing to improve
-          healthcare coordination, communication, and decision-making. Key
-          solutions include a care coordination platform to identify gaps and
-          recommend interventions, virtual assistants for patient engagement,
-          clinical NLP to structure health data, automated patient outreach to
-          improve adherence, and real-time workflow tools to assist providers
-          with diagnoses, medications, referrals, etc. The goal is to use AI and
+          <a
+            href="https://coherehealth.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cohere Health&nbsp;
+          </a>
+          leverages AI and natural language processing to improve healthcare
+          coordination, communication, and decision-making. Key solutions
+          include a care coordination platform to identify gaps and recommend
+          interventions, virtual assistants for patient engagement, clinical NLP
+          to structure health data, automated patient outreach to improve
+          adherence, and real-time workflow tools to assist providers with
+          diagnoses, medications, referrals, etc. The goal is to use AI and
           automation to enable better outcomes and efficiency across patients,
           providers, and payers.
         </p>
@@ -33,17 +41,20 @@ const Cohere = () => {
           improve features for this crucial review process.
         </p>
         <h3> My work's tech stack</h3>
-        <p>Frontend:</p>
+        <p>Frontend</p>
         <li>React</li>
         <li>TypeScript</li>
-        <p>Backend:</p>
+        <p>Backend</p>
         <li> Java</li>
         <li> Groovy</li>
+        <li>ElasticSearch</li>
         <li> MongoDB</li>
-        <p>DevOps:</p>
+        <p>DevOps</p>
+        <li>Salesforce</li>
         <li>AWS</li>
         <li>Docker</li>
         <li>Kibana</li>
+        <li>Kafka</li>
         <p>Testing</p>
         <li>Cypress</li>
         <li>JUnit</li>

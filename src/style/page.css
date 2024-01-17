@@ -1,11 +1,11 @@
 .pageContainer {
   height: auto;
-  min-height: calc(100vh - 30vh - 90px);
+  min-height: calc(100vh - 20vh - 90px);
   width: 100vw;
   color: #2a2a2a;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -13,26 +13,30 @@
   height: 100%;
   width: 100%;
   max-width: 2000px;
-  padding: 40px 120px;
+  padding: 60px 120px;
+  line-height: 1.5;
 }
 
 .pageContent h1 {
   font-size: 3rem;
-  margin-bottom: 15px;
 }
 .pageContent h2 {
   font-size: 2rem;
   color: #4361ee;
   font-weight: 500;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .pageContent h3 {
   font-size: 1.7rem;
   color: #2a2a2a;
   font-weight: 400;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.pageContent h4 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #2a2a2a;
 }
 
 .pageContent p {
@@ -45,6 +49,16 @@
   margin-left: 40px;
   font-size: 1.2rem;
   color: #474747;
+}
+
+.pageContent a {
+  font-size: 1.2rem;
+  color: #4361ee;
+  font-weight: 500;
+}
+
+.pageContent h2 a {
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 2000px) {

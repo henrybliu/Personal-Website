@@ -13,6 +13,7 @@ import Footer from "./components/footer";
 import Home from "./sections/home";
 import NavBar from "./components/navBar";
 import Portfolio from "./sections/portfolio";
+import FooterFadeInSection from "./components/footerFadeIn";
 
 //experience pages
 import Cohere from "./experiencePages/cohere";
@@ -91,7 +92,9 @@ function App() {
         <Route path="/viasat2022" element={<Viasat2022 />} />
         <Route path="/paloVerde" element={<PaloVerde />} />
       </Routes>
-      <Footer />
+      <FooterFadeInSection>
+        <Footer />
+      </FooterFadeInSection>
     </Router>
   );
 }
