@@ -55,3 +55,24 @@
   cursor: pointer;
   transform: scale(1.15);
 }
+
+@media screen and (max-width: 950px) {
+  .navContainer {
+    height: 80px;
+  }
+  .navContent {
+    padding: 0 30px;
+  }
+
+  .name h2 {
+    font-size: 1.8rem;
+  }
+
+  .sections {
+    display: None;
+  }
+
+  .contact {
+    display: None;
+  }
+}

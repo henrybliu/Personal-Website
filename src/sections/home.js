@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/home.css";
 import cartoon from "../images/landingCartoon.png";
+import "../style/browseBtn.css";
 
 import Dash from "../components/dash";
 import BrowseBtn from "../components/browseBtn";
@@ -21,7 +22,9 @@ const Home = () => {
             <h2>
               a software engineer with a zeal for designing creative solutions!
             </h2>
-            <BrowseBtn />
+            <div className="btnArea">
+              <BrowseBtn />
+            </div>
           </div>
           <div className="rightHome">
             <img src={cartoon} alt="cartoon" />

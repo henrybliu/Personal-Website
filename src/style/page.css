@@ -1,6 +1,6 @@
 .pageContainer {
   height: auto;
-  min-height: calc(100vh - 20vh - 90px);
+  min-height: calc(100vh - 20vh - 80px);
   width: 100vw;
   color: #2a2a2a;
   display: flex;
@@ -64,5 +64,36 @@
 @media screen and (min-width: 2000px) {
   .pageContainer {
     min-height: calc(100vh - 20vh - 90px);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .pageContent {
+    width: 100vw;
+    padding: 30px 30px;
+    /* background-color: pink; */
+    /* background-color: green; */
+    flex-direction: column-reverse;
+    justify-content: center;
+    overflow-wrap: break-word;
+  }
+
+  .pageContent h1 {
+    font-size: 2.5rem;
+  }
+  .pageContent h2 {
+    font-size: 1.5rem;
+  }
+  .pageContent h3 {
+    font-size: 1.4rem;
+  }
+  .pageContainer h4 {
+    font-size: 1.2rem;
+  }
+  .pageContent p,
+  .pageContent a,
+  .pageContent h2 a,
+  .pageContent li {
+    font-size: 1.1rem;
   }
 }

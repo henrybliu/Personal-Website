@@ -77,3 +77,36 @@
     font-size: 1.8rem;
   }
 }
+
+@media screen and (max-width: 1150px) {
+  .projectGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .experienceGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContent {
+    width: 100vw;
+    padding: 20px 30px;
+  }
+  .portfolioTitle h1 {
+    font-size: 2.5rem;
+  }
+
+  .portfolioContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .portfolioContent h3 {
+    font-size: 1.4rem;
+  }
+  .projectGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .experienceGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

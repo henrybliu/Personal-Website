@@ -1,8 +1,7 @@
 .experienceContainer {
   width: 100%;
-  height: auto;
-  border-radius: 20px;
   height: 400px;
+  border-radius: 20px;
   overflow: hidden;
   line-height: 1.5;
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
@@ -57,4 +56,28 @@
   font-size: 1rem;
   font-weight: 300;
   color: #474747;
+}
+
+@media screen and (max-width: 1400px) {
+  .bottomExperience h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experienceContainer {
+    height: 350px;
+  }
+  .topExperience {
+    height: 60%;
+  }
+  .bottomExperience h2 {
+    font-size: 1.3rem;
+  }
+  .bottomExperience h3 {
+    font-size: 1rem;
+  }
+  .bottomExperience h4 {
+    font-size: 1rem;
+  }
 }

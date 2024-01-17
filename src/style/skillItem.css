@@ -11,3 +11,10 @@
   margin-right: 5px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 950px) {
+  .itemContainer {
+    font-size: 1.1rem;
+    margin-right: 2px;
+  }
+}

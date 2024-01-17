@@ -1,5 +1,6 @@
 import React from "react";
 import Dash from "../components/dash";
+import { NavLink as Link } from "react-router-dom";
 import "../style/page.css";
 
 const FloWeaver = () => {
@@ -20,8 +21,9 @@ const FloWeaver = () => {
         <h3>About the project</h3>
         <p>
           This project originated during my time as an Undergraduate Research
-          Assistant at the Scripps Institution of Oceanography. For more
-          information, please refer to the Experience section of my portfolio!
+          Assistant at the Scripps Institution of Oceanography . For more
+          information, please refer to the Experience section of my portfolio or
+          click <Link to="/scripps">here</Link>!
         </p>
         <h3> Project tech stack</h3>
         <p>Frontend</p>

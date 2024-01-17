@@ -33,17 +33,18 @@ const Viasat2023 = () => {
 
         <h3>What I worked on at Viasat</h3>
         <p>
-          During my internship, I took a lead role in developing a robust
-          full-stack feature that showcased a network's health data and assessed
-          interference across connected devices' locations. I engineered a
-          systemd service, ensuring the seamless transmission of device noise
-          data to an aggregator. My contributions spanned the creation of both
-          the service and the application for collecting and visualizing sampled
-          data. Additionally, I demonstrated leadership by effectively assigning
-          tasks to fellow interns in the absence of our manager during his
-          vacation. This experience highlights my skills in full-stack
-          development, system design, networking fundamentals, and project
-          management.
+          During my internship, as a part of the Advanced Networks and
+          Cybersecurity Solutions team, I took a lead role in developing a
+          robust full-stack feature that showcased a network's health data and
+          assessed interference across connected devices' locations. I
+          engineered a systemd service, ensuring the seamless transmission of
+          device noise data to an aggregator. My contributions spanned the
+          creation of both the service and the application for collecting and
+          visualizing sampled data. Additionally, I demonstrated leadership by
+          effectively assigning tasks to fellow interns in the absence of our
+          manager during his vacation. This experience highlights my skills in
+          full-stack development, system design, networking fundamentals, and
+          project management.
         </p>
         <h3> My work's tech stack</h3>
         <p>Frontend</p>

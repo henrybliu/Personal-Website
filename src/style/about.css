@@ -62,7 +62,7 @@
 }
 
 .imgContainer img {
-  height: auto;
+  height: 100%;
   width: 100%;
   overflow: hidden;
 }
@@ -79,5 +79,68 @@
 
   .rightAbout h2 {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .aboutContainer {
+    height: auto;
+    min-height: calc(100vh - 80px);
+    /* background-color: blue; */
+  }
+  .aboutContent {
+    width: 100vw;
+    padding: 30px 30px;
+    /* background-color: pink; */
+    /* background-color: green; */
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .leftAbout {
+    /* background-color: red; */
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin-top: 5%;
+  }
+
+  .rightAbout {
+    /* background-color: blue; */
+    height: auto;
+    /* background-color: green; */
+    /* background-color: green; */
+  }
+
+  .imgContainer {
+    height: auto;
+    width: 85%;
+    /* background-color: green; */
+  }
+
+  .imgContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .aboutContent h1 {
+    font-size: 2.5rem;
+  }
+  .aboutContent h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 768px) {
+  .leftAbout {
+    margin-top: 15%;
+  }
+  .aboutContent h2 {
+    font-size: 1.3rem;
   }
 }
