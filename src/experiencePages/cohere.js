@@ -32,13 +32,13 @@ const Cohere = () => {
 
         <h3>What I am working on</h3>
         <p>
-          A major focus of my work is on the preauthorization workflow
-          microservice. Over 90% of requests get auto-approved by AI, while the
-          10% not auto-approved are reviewed by nurses and doctors. Medical
-          professionals use this microservice to retrieve the pertinent
-          documentation and to upload their decisions. As a full stack software
-          engineer intern, I work with designers and engineers to add and
-          improve features for this crucial review process.
+          A major focus of my work is on the preauthorization workflow backend
+          service. Over 90% of requests get auto-approved by AI, while the 10%
+          not auto-approved are reviewed by nurses and doctors. Medical
+          professionals use this service to retrieve the pertinent documentation
+          and to upload their decisions. As a full stack software engineer
+          intern, I work with designers and engineers to add and improve
+          features for this crucial review process.
         </p>
         <h3> My work's tech stack</h3>
         <p>Frontend</p>
