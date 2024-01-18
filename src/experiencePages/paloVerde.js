@@ -27,7 +27,7 @@ const PaloVerde = () => {
           power plant in the U.S. and the second-largest globally.
         </p>
 
-        <h3>What I worked on at the Palo Verde Generating Station</h3>
+        <h3>What I worked on</h3>
         <p>
           As a member of the Electronic Rework Team, I played a key role in the
           development of a web application aimed at consolidating tens of

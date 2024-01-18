@@ -19,18 +19,18 @@ const Cohere = () => {
           >
             Cohere Health&nbsp;
           </a>
-          leverages AI and natural language processing to improve healthcare
-          coordination, communication, and decision-making. Key solutions
-          include a care coordination platform to identify gaps and recommend
-          interventions, virtual assistants for patient engagement, clinical NLP
-          to structure health data, automated patient outreach to improve
-          adherence, and real-time workflow tools to assist providers with
-          diagnoses, medications, referrals, etc. The goal is to use AI and
+          is a startup leverages AI and natural language processing to improve
+          healthcare coordination, communication, and decision-making. Key
+          solutions include a care coordination platform to identify gaps and
+          recommend interventions, virtual assistants for patient engagement,
+          clinical NLP to structure health data, automated patient outreach to
+          improve adherence, and real-time workflow tools to assist providers
+          with diagnoses, medications, referrals, etc. The goal is to use AI and
           automation to enable better outcomes and efficiency across patients,
           providers, and payers.
         </p>
 
-        <h3>What I am working on at Cohere Health</h3>
+        <h3>What I am working on</h3>
         <p>
           A major focus of my work is on the preauthorization workflow
           microservice. Over 90% of requests get auto-approved by AI, while the
@@ -50,10 +50,10 @@ const Cohere = () => {
         <li>ElasticSearch</li>
         <li> MongoDB</li>
         <p>DevOps</p>
+        <li>Elastic (ELK Stack)</li>
         <li>Salesforce</li>
         <li>AWS</li>
         <li>Docker</li>
-        <li>Kibana</li>
         <li>Kafka</li>
         <p>Testing</p>
         <li>Cypress</li>

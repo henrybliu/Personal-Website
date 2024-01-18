@@ -31,7 +31,7 @@ const Viasat2022 = () => {
           the development and deployment of advanced satellite technologies.
         </p>
 
-        <h3>What I worked on at Viasat</h3>
+        <h3>What I worked on</h3>
         <p>
           I automated the testing of Viasat's proprietary Link 16 radios
           (acquired by L3Harris in 2023). The certification of Link 16 radios

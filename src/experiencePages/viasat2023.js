@@ -31,7 +31,7 @@ const Viasat2023 = () => {
           the development and deployment of advanced satellite technologies.
         </p>
 
-        <h3>What I worked on at Viasat</h3>
+        <h3>What I worked on</h3>
         <p>
           During my internship, as a part of the Advanced Networks and
           Cybersecurity Solutions team, I took a lead role in developing a
