@@ -26,7 +26,7 @@ const ECETutor = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            ECE 17
+            ECE 17&nbsp;
           </a>
           at UC San Diego. This course, designed for electrical engineering
           students, focuses on introductory programming. Over the span of 10
