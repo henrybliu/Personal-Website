@@ -17,7 +17,6 @@ const MyWebsite = () => {
             github.com/henrybliu/Personal-Website
           </a>
         </h2>
-
         <h3>About the project</h3>
         <p>
           This project serves as my "digital resume" and an excuse to show off
@@ -28,14 +27,13 @@ const MyWebsite = () => {
           accelerate the overall user experience.
         </p>
         <h3> Project tech stack</h3>
-
         <p>Frontend</p>
         <li>React</li>
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
         <p>DevOps</p>
-        <li>Cloudflare CDN (in progress)</li>
+        <li>Netlify CDN</li>
         <li>Netlify</li>
       </div>
     </div>
