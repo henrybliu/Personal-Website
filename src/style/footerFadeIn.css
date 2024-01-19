@@ -1,8 +1,6 @@
 .footer-fade-in-section {
-  /* width: 100%; */
   height: auto;
   opacity: 0;
-  /* transform: translateY(20vh); */
   visibility: hidden;
   transition: opacity 900ms ease-out, transform 400ms ease-out,
     visibility 900ms ease-out;
