@@ -19,15 +19,15 @@ const Cohere = () => {
           >
             Cohere Health&nbsp;
           </a>
-          is a startup leverages AI and natural language processing to improve
-          healthcare coordination, communication, and decision-making. Key
-          solutions include a care coordination platform to identify gaps and
-          recommend interventions, virtual assistants for patient engagement,
-          clinical NLP to structure health data, automated patient outreach to
-          improve adherence, and real-time workflow tools to assist providers
-          with diagnoses, medications, referrals, etc. The goal is to use AI and
-          automation to enable better outcomes and efficiency across patients,
-          providers, and payers.
+          is a startup that leverages AI and natural language processing to
+          improve healthcare coordination, communication, and decision-making.
+          Key solutions include a care coordination platform to identify gaps
+          and recommend interventions, virtual assistants for patient
+          engagement, clinical NLP to structure health data, automated patient
+          outreach to improve adherence, and real-time workflow tools to assist
+          providers with diagnoses, medications, referrals, etc. The goal is to
+          use AI and automation to enable better outcomes and efficiency across
+          patients, providers, and payers.
         </p>
 
         <h3>What I am working on</h3>
