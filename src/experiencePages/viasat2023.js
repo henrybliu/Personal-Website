@@ -40,7 +40,8 @@ const Viasat2023 = () => {
           engineered a systemd service, ensuring the seamless transmission of
           device noise data to an aggregator. My contributions spanned the
           creation of both the service and the application for collecting and
-          visualizing sampled data. Additionally, I demonstrated leadership by
+          visualizing sampled data. I also contributed to the configuration of
+          the CI/CD pipeline. Additionally, I demonstrated leadership by
           effectively assigning tasks to fellow interns in the absence of our
           manager during his vacation. This experience highlights my skills in
           full-stack development, system design, networking fundamentals, and
@@ -60,6 +61,7 @@ const Viasat2023 = () => {
         <p>DevOps</p>
         <li>AWS</li>
         <li>systemd</li>
+        <li>Docker</li>
         <p>Network OS</p>
         <li>VyOS</li>
         <p>Testing</p>

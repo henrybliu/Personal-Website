@@ -37,8 +37,8 @@ const Cohere = () => {
           not auto-approved are reviewed by nurses and doctors. Medical
           professionals use this service to retrieve the pertinent documentation
           and to upload their decisions. As a full stack software engineer
-          intern, I work with designers and engineers to add and improve
-          features for this crucial review process.
+          intern, I work with designers, engineers, and end-users to add and
+          improve features for this crucial review process.
         </p>
         <h3> My work's tech stack</h3>
         <p>Frontend</p>

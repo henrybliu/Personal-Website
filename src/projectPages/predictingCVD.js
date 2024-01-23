@@ -29,8 +29,8 @@ const PredictingCVD = () => {
           findings indicate that systolic and diastolic blood pressure,
           cholesterol levels, age, weight, and BMI are the most significant
           indicators of susceptibility to CVD.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           The&nbsp;
           <a
             href="https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset"
@@ -45,8 +45,8 @@ const PredictingCVD = () => {
           levels, age, weight, and the presence or absence of CVD. The dataset
           has been preprocessed to remove any inconsistencies or missing values
           to ensure accurate analysis.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           The primary objectives of this project are as follows: Identify
           correlations:
           <li>
@@ -69,7 +69,8 @@ const PredictingCVD = () => {
             these factors can help healthcare professionals prioritize
             interventions and develop targeted prevention strategies.
           </li>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           To provide a user-friendly experience and enable personalized risk
           assessment, we created an interactive interface. This interface allows
           users to input their characteristics, including relevant health

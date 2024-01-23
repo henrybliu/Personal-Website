@@ -33,8 +33,8 @@ const ECETutor = () => {
           weeks, the curriculum delves into object-oriented design and
           development in C++, as well as covers essential topics such as data
           structures and algorithms, including selection sort, BFS, and DFS.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           As a tutor for this course, I hosted office hours to aid students
           one-on-one in answering course questions and providing guidance on
           their programming assignments. Additionally, I took on the

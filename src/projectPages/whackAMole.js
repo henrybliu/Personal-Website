@@ -22,8 +22,8 @@ const WhackAMole = () => {
           In a span of 5 weeks, I created a Whack-A-Mole arcade game utilizing
           an Arduino board as the controller. The gameplay was visually
           presented on a screen through a MATLAB GUI.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           Checkout the GitHub link above for a video demo and the project
           documentation!
         </p>

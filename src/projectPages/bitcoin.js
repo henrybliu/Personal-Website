@@ -29,8 +29,8 @@ const Bitcoin = () => {
           in the hope of discovering a suitable hash. Miners competitively
           compute these hash functions, striving to add blocks to the
           blockchain.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           My project replicates this intricate process in SystemVerilog,
           providing efficiency and programming at a hardware-like level.
           Ultimately, this code can be applied to program a piece of hardware,

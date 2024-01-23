@@ -20,8 +20,8 @@ const Sprout = () => {
           storefront, I am developing a tailored application. This application
           is designed to safeguard business privacy while offering tools for
           effective management, exposure, and scalability.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           If you are a small business owner, your input is invaluable for
           refining this application to better suit your needs. I would greatly
           appreciate it if you could take a moment to fill out this&nbsp;

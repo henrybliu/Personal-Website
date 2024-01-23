@@ -31,14 +31,14 @@ const HenrysBarbershop = () => {
           I enjoy cutting hair as a hobby. Frequently, friends and classmates
           approach me for haircuts. To simplify the appointment scheduling
           process and broaden my client base, I developed this application!
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           This tool addresses previous challenges of slow communication through
           text messages and social media. Now, clients can effortlessly view my
           availability, choose slots, explore my past work, and provide
           feedback.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           Thanks to this application, my once modest business, serving around 15
           regulars, has expanded to over 50 clients! You might even find
           recommendations for my barber services on the UC San Diego subreddit.

@@ -36,16 +36,16 @@ const Scripps = () => {
           utilize this valuable tool for simulating ocean particle transport.
           The broader accessibility aims to contribute to increased awareness
           and understanding of ocean behavior and the impacts of pollution.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           As the lead developer, I played a central role in orchestrating
           discussions among the research team, K-12 educators, the UCSD IT
           department, and fellow student developers. This collaborative effort
           aimed to transform the vision of the research team into a tangible
           reality—a tool that is easily accessible and beneficial to a wider
           audience.
-          <br></br>
-          <br></br>
+        </p>
+        <p style={{ marginTop: "15px" }}>
           During my two months, I focused on the frontend of the application.
           Leveraging Mapbox, React, and JavaScript, I crafted an intuitive user
           interface capable of accurately simulating the flow of particles at
