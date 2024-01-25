@@ -196,6 +196,7 @@ const Portfolio = () => {
                   <SkillItem term="Node.js" />
                   <SkillItem term="Express" />
                   <SkillItem term="gRPC" />
+                  <SkillItem term="REST" />
                   <SkillItem term="MongoDB" />
                   <SkillItem term="MySQL" />
                   <SkillItem term="PostgreSQL" />
