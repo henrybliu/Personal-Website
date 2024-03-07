@@ -10,11 +10,11 @@ const Bitcoin = () => {
         <h1>Bitcoin Hash &amp; Miner</h1>
         <h2>
           <a
-            href="https://github.com/henrybliu/bitcion-hash-miner"
+            href="https://github.com/henrybliu/bitcoin-hash-miner"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/henrybliu/bitcion-hash-miner
+            github.com/henrybliu/bitcoin-hash-miner
           </a>
         </h2>
         <h3>About the project</h3>
