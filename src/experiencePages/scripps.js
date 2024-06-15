@@ -46,10 +46,14 @@ const Scripps = () => {
           audience.
         </p>
         <p style={{ marginTop: "15px" }}>
-          During my two months, I focused on the frontend of the application.
-          Leveraging Mapbox, React, and JavaScript, I crafted an intuitive user
-          interface capable of accurately simulating the flow of particles at
-          chosen "drop points" under various simulation variables.
+          During my two-month project, I concentrated on the frontend
+          development of the application. Utilizing Mapbox, React, and
+          JavaScript, I designed an intuitive user interface that accurately
+          simulates particle flow at selected "drop points" under various
+          simulation parameters. Ensuring smooth performance and seamless
+          simulations was crucial for a pleasant user experience, which
+          necessitated a robust system architecture. To achieve this, I proposed
+          leveraging AWS S3 for storage and EC2 for computation.
         </p>
 
         <h3>Project link</h3>

@@ -19,6 +19,7 @@ import heart from "../images/heart.png";
 import gears from "../images/gears.png";
 import boat from "../images/boat.png";
 
+import seattleSpheres from "../images/seattleSpheres.png";
 import cohere from "../images/cohere.png";
 import fah from "../images/fah.png";
 import scripps from "../images/scripps.png";
@@ -117,6 +118,13 @@ const Portfolio = () => {
             <FadeInSection>
               <h2>Experience</h2>
               <div className="experienceGrid">
+                <ExperienceItem
+                  position="Software Development Engineer Intern"
+                  company="Amazon Web Services"
+                  duration="June 2024 - Present"
+                  background={seattleSpheres}
+                  link="/amazon"
+                />
                 <ExperienceItem
                   position="Full Stack Software Engineer Intern"
                   company="Cohere Health"

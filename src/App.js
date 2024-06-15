@@ -7,6 +7,8 @@ import {
   useLocation,
 } from "react-router-dom";
 
+import "./App.css";
+
 // sections
 import About from "./sections/about";
 import Footer from "./components/footer";
@@ -17,13 +19,14 @@ import FooterFadeInSection from "./components/footerFadeIn";
 
 //experience pages
 import Cohere from "./experiencePages/cohere";
-
-import "./App.css";
+import Amazon from "./experiencePages/amazon";
 import ECETutor from "./experiencePages/ECETutor";
 import Scripps from "./experiencePages/scripps";
 import Viasat2023 from "./experiencePages/viasat2023";
 import Viasat2022 from "./experiencePages/viasat2022";
 import PaloVerde from "./experiencePages/paloVerde";
+
+// project pages
 import Sprout from "./projectPages/sprout";
 import TicTacToeModel from "./projectPages/ticTacToeModel";
 import MyWebsite from "./projectPages/myWebsite";
@@ -85,6 +88,7 @@ function App() {
         <Route path="/whackAMole" element={<WhackAMole />} />
 
         {/* routes for experience pages */}
+        <Route path="/amazon" element={<Amazon />} />
         <Route path="/cohere" element={<Cohere />} />
         <Route path="/ECETutor" element={<ECETutor />} />
         <Route path="/scripps" element={<Scripps />} />
