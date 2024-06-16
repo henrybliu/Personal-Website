@@ -39,6 +39,32 @@ import {
   WhackAMole,
 } from "./projectPages";
 
+const projectRoutes = [
+  { path: "/sprout", element: <Sprout /> },
+  { path: "/ticTacToeModel", element: <TicTacToeModel /> },
+  { path: "/aboutMyWebsite", element: <MyWebsite /> },
+  { path: "/henrysBarbershop", element: <HenrysBarbershop /> },
+  { path: "/thetaTauWebsite", element: <ThetaTauWebsite /> },
+  { path: "/predictingCVD", element: <PredictingCVD /> },
+  { path: "/bitcoinHash&miner", element: <Bitcoin /> },
+  { path: "/floWeaver", element: <FloWeaver /> },
+  { path: "/leetcode", element: <Leetcode /> },
+  { path: "/instagramUnfollowers", element: <InstagramUnfollowers /> },
+  { path: "/tarotCardGame", element: <TarotCardGame /> },
+  { path: "/everglow", element: <Everglow /> },
+  { path: "/whackAMole", element: <WhackAMole /> },
+];
+
+const experienceRoutes = [
+  { path: "/amazon", element: <Amazon /> },
+  { path: "/cohere", element: <Cohere /> },
+  { path: "/ECETutor", element: <ECETutor /> },
+  { path: "/scripps", element: <Scripps /> },
+  { path: "/viasat2023", element: <Viasat2023 /> },
+  { path: "/viasat2022", element: <Viasat2022 /> },
+  { path: "/paloVerde", element: <PaloVerde /> },
+];
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -67,32 +93,13 @@ function App() {
           }
         />
 
-        {/* routes for project pages */}
-        <Route path="/sprout" element={<Sprout />} />
-        <Route path="/ticTacToeModel" element={<TicTacToeModel />} />
-        <Route path="/aboutMyWebsite" element={<MyWebsite />} />
-        <Route path="/henrysBarbershop" element={<HenrysBarbershop />} />
-        <Route path="/thetaTauWebsite" element={<ThetaTauWebsite />} />
-        <Route path="/predictingCVD" element={<PredictingCVD />} />
-        <Route path="/bitcoinHash&amp;Miner" element={<Bitcoin />} />
-        <Route path="/floWeaver" element={<FloWeaver />} />
-        <Route path="/leetcode" element={<Leetcode />} />
-        <Route
-          path="/instagramUnfollowers"
-          element={<InstagramUnfollowers />}
-        />
-        <Route path="/tarotCardGame" element={<TarotCardGame />} />
-        <Route path="/everglow" element={<Everglow />} />
-        <Route path="/whackAMole" element={<WhackAMole />} />
+        {projectRoutes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
 
-        {/* routes for experience pages */}
-        <Route path="/amazon" element={<Amazon />} />
-        <Route path="/cohere" element={<Cohere />} />
-        <Route path="/ECETutor" element={<ECETutor />} />
-        <Route path="/scripps" element={<Scripps />} />
-        <Route path="/viasat2023" element={<Viasat2023 />} />
-        <Route path="/viasat2022" element={<Viasat2022 />} />
-        <Route path="/paloVerde" element={<PaloVerde />} />
+        {experienceRoutes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
       </Routes>
       <FooterFadeInSection>
         <Footer />
