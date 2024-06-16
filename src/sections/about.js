@@ -23,13 +23,13 @@ const About = () => {
             </div>
 
             <h2>
-              I'm a Computer Engineering student at the University of
-              California, San Diego with experience in full stack development,
-              network software engineering, and machine learning.
+              I'm a Master's student at the University of California, San Diego
+              studying Machine Learning & Data Science with experience in full
+              stack development, software engineering, and machine learning.
             </h2>
             <h2 id="bottomH2">
               In my free time, I love snowboarding, soccer, and trying new
-              recipes. Currently, I am training for my first half-marathon!
+              recipes. Currently, I am training for my first Spartan race!
             </h2>
             <div className="buttons">
               <Btn2
