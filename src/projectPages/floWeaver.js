@@ -1,5 +1,5 @@
 import React from "react";
-import Dash from "../components/dash";
+import { Dash } from "../components";
 import { NavLink as Link } from "react-router-dom";
 import "../style/page.css";
 

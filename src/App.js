@@ -9,37 +9,35 @@ import {
 
 import "./App.css";
 
-// sections
-import About from "./sections/about";
-import Footer from "./components/footer";
-import Home from "./sections/home";
-import NavBar from "./components/navBar";
-import Portfolio from "./sections/portfolio";
-import FooterFadeInSection from "./components/footerFadeIn";
+import { Home, About, Portfolio } from "./sections";
 
-//experience pages
-import Cohere from "./experiencePages/cohere";
-import Amazon from "./experiencePages/amazon";
-import ECETutor from "./experiencePages/ECETutor";
-import Scripps from "./experiencePages/scripps";
-import Viasat2023 from "./experiencePages/viasat2023";
-import Viasat2022 from "./experiencePages/viasat2022";
-import PaloVerde from "./experiencePages/paloVerde";
+import { Footer, NavBar, FooterFadeInSection } from "./components";
 
-// project pages
-import Sprout from "./projectPages/sprout";
-import TicTacToeModel from "./projectPages/ticTacToeModel";
-import MyWebsite from "./projectPages/myWebsite";
-import HenrysBarbershop from "./projectPages/henrysBarbershop";
-import ThetaTauWebsite from "./projectPages/thetaTauWebsite";
-import PredictingCVD from "./projectPages/predictingCVD";
-import Bitcoin from "./projectPages/bitcoin";
-import FloWeaver from "./projectPages/floWeaver";
-import Leetcode from "./projectPages/leetcode";
-import InstagramUnfollowers from "./projectPages/instagramUnfollowers";
-import TarotCardGame from "./projectPages/tarotCardGame";
-import Everglow from "./projectPages/everglow";
-import WhackAMole from "./projectPages/whackAMole";
+import {
+  Cohere,
+  Amazon,
+  ECETutor,
+  Scripps,
+  Viasat2022,
+  Viasat2023,
+  PaloVerde,
+} from "./experiencePages";
+
+import {
+  Sprout,
+  TicTacToeModel,
+  MyWebsite,
+  HenrysBarbershop,
+  ThetaTauWebsite,
+  PredictingCVD,
+  Bitcoin,
+  FloWeaver,
+  Leetcode,
+  InstagramUnfollowers,
+  TarotCardGame,
+  Everglow,
+  WhackAMole,
+} from "./projectPages";
 
 function ScrollToTop() {
   const { pathname } = useLocation();

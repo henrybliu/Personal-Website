@@ -1,5 +1,5 @@
 import React from "react";
-import Dash from "../components/dash";
+import { Dash } from "../components";
 import "../style/page.css";
 
 const PredictingCVD = () => {
