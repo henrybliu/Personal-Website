@@ -234,6 +234,8 @@ const Portfolio = () => {
                   <SkillItem term="Jenkins" />
                   <SkillItem term="NumPy" />
                   <SkillItem term="TensorFlow" />
+                  <SkillItem term="Sentry" />
+                  <SkillItem term="Kibana" />
                 </div>
               </div>
             </FadeInSection>
