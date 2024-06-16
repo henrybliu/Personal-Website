@@ -129,7 +129,7 @@ const Portfolio = () => {
                 <ExperienceItem
                   position="Full Stack Software Engineer Intern"
                   company="Cohere Health"
-                  duration="January 2024 - Present"
+                  duration="January 2024 - June 2024"
                   background={cohere}
                   link="/cohere"
                 />
