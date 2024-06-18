@@ -2,9 +2,7 @@ import React from "react";
 import "../style/home.css";
 import cartoon from "../images/landingCartoon.png";
 
-import Dash from "../components/dash";
-import BrowseBtn from "../components/browseBtn";
-import FadeInSection from "../components/fadeInSection";
+import { Dash, BrowseBtn, FadeInSection } from "../components";
 
 const Home = () => {
   return (

@@ -62,7 +62,7 @@ const ProjectBottom = styled("div")({
   lineHeight: 1.5,
   backgroundColor: "#d3d3d3",
 
-  "& .bottomProject h2": {
+  "& h2": {
     fontSize: "1.8rem",
     fontWeight: 600,
     color: "#2a2a2a",

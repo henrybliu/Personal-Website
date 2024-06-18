@@ -1,10 +1,7 @@
 import React from "react";
 import "../style/portfolio.css";
 
-import Dash from "../components/dash";
-import SkillItem from "../components/skillItem";
-import ExperienceItem from "../components/experienceItem";
-import Project from "../components/project";
+import { Dash, SkillItem, ExperienceItem, Project } from "../components";
 
 import {
   progress,

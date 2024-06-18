@@ -2,9 +2,7 @@ import React from "react";
 import "../style/about.css";
 import profPic from "../images/profPic.png";
 
-import Dash from "../components/dash";
-import SecondaryButton from "../components/secondaryButton";
-import FadeInSection from "../components/fadeInSection";
+import { Dash, SecondaryButton, FadeInSection } from "../components";
 
 const About = () => {
   return (
