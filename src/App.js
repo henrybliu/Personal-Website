@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import { GlobalStyles } from "@mui/material";
 import {
   BrowserRouter as Router,
   Routes,
@@ -7,11 +7,9 @@ import {
   useLocation,
 } from "react-router-dom";
 
-import "./App.css";
-
 import { Home, About, Portfolio } from "./sections";
 
-import { Footer, NavBar, FooterFadeInSection } from "./components";
+import { Footer, NavBar } from "./components";
 
 import {
   Cohere,
@@ -38,6 +36,19 @@ import {
   Everglow,
   WhackAMole,
 } from "./projectPages";
+
+const globalStyles = (
+  <GlobalStyles
+    styles={{
+      "*": {
+        boxSizing: "border-box",
+        margin: 0,
+        padding: 0,
+        textDecoration: "none",
+      },
+    }}
+  />
+);
 
 const projectRoutes = [
   { path: "/sprout", element: <Sprout /> },
@@ -78,6 +89,7 @@ function ScrollToTop() {
 function App() {
   return (
     <Router className="router">
+      {globalStyles}
       <NavBar />
       <ScrollToTop />
 
@@ -101,9 +113,7 @@ function App() {
           <Route key={index} path={route.path} element={route.element} />
         ))}
       </Routes>
-      <FooterFadeInSection>
-        <Footer />
-      </FooterFadeInSection>
+      <Footer />
     </Router>
   );
 }

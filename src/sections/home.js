@@ -1,7 +1,6 @@
 import React from "react";
 import "../style/home.css";
 import cartoon from "../images/landingCartoon.png";
-import "../style/browseBtn.css";
 
 import Dash from "../components/dash";
 import BrowseBtn from "../components/browseBtn";
@@ -10,7 +9,7 @@ import FadeInSection from "../components/fadeInSection";
 const Home = () => {
   return (
     <div className="homeContainer" id="home">
-      <FadeInSection>
+      <FadeInSection slide={true}>
         <div className="homeContent">
           <div className="leftHome">
             <Dash />

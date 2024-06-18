@@ -163,7 +163,7 @@ const skillItems = {
 const Portfolio = () => {
   return (
     <div className="portfolioContainer" id="portfolio">
-      <FadeInSection>
+      <FadeInSection slide={true}>
         <div className="portfolioContent">
           <div className="portfolioTop">
             <Dash></Dash>
@@ -173,7 +173,7 @@ const Portfolio = () => {
           </div>
 
           <div className="projects">
-            <FadeInSection>
+            <FadeInSection slide={true}>
               <h2>Projects</h2>
 
               <div className="projectGrid">
@@ -190,7 +190,7 @@ const Portfolio = () => {
           </div>
 
           <div className="experience">
-            <FadeInSection>
+            <FadeInSection slide={true}>
               <h2>Experience</h2>
               <div className="experienceGrid">
                 {experienceItems.map((experience, index) => (
@@ -208,7 +208,7 @@ const Portfolio = () => {
           </div>
 
           <div className="skills">
-            <FadeInSection>
+            <FadeInSection slide={true}>
               <h2>Skills</h2>
               {Object.keys(skillItems).map((category) => (
                 <div key={category} className={category}>

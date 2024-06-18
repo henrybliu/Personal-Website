@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style/menu.css";
+import { styled } from "@mui/system";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -16,8 +16,8 @@ const Menu = ({ show, handleNav, closeMenu }) => {
 
   if (!show) return null;
   return (
-    <div className="menuContainer">
-      <div className="menuContent">
+    <MenuContainer>
+      <MenuContent>
         <h1
           onClick={() => {
             handleNav("home", 90);
@@ -56,9 +56,46 @@ const Menu = ({ show, handleNav, closeMenu }) => {
             closeMenu();
           }}
         />
-      </div>
-    </div>
+      </MenuContent>
+    </MenuContainer>
   );
 };
+
+const MenuContainer = styled("div")({
+  top: 0,
+  position: "fixed",
+  height: "100vh",
+  width: "100vw",
+  backgroundColor: "#faf9f6",
+  zIndex: 99999,
+  display: "flex",
+  justifyContent: "center",
+
+  "& h1:hover, & a:hover, & #closeMenu:hover": {
+    transform: "scale(1.1)",
+    cursor: "pointer",
+  },
+});
+
+const MenuContent = styled("div")({
+  width: "100%",
+  height: "100%",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "30px",
+  fontFamily: "Ubuntu",
+  paddingBottom: "100px",
+
+  "& h1, & a, & #closeMenu": {
+    fontSize: "3rem",
+    margin: "20px",
+    fontWeight: 600,
+    color: "#4361ee",
+    transform: "scale(1)",
+    transition: "transform 0.2s",
+  },
+});
 
 export default Menu;
