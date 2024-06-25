@@ -12,7 +12,7 @@ const Amazon = () => {
         <h4>June 2024 - Present</h4>
 
         <h3>Information coming soon!</h3>
-        <p>AWS Sign-In team</p>
+        <p>AWS Unified Signin team</p>
       </div>
     </div>
   );
