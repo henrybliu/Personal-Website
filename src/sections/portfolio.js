@@ -1,7 +1,13 @@
 import React from "react";
 import "../style/portfolio.css";
 
-import { Dash, SkillItem, ExperienceItem, Project } from "../components";
+import {
+  Dash,
+  SkillItem,
+  ExperienceItem,
+  Project,
+  FadeInSection,
+} from "../components";
 
 import {
   progress,
@@ -24,8 +30,6 @@ import {
   viasat,
   viasat2,
 } from "../images";
-
-import FadeInSection from "../components/fadeInSection";
 
 const projectItems = [
   { projectName: "Sprout", background: progress, link: "/sprout" },

@@ -19,6 +19,9 @@ import aps from "../images/aps.png";
 import viasat from "../images/viasat.png";
 import viasat2 from "../images/viasat2.png";
 
+import profPic from "../images/profPic.png";
+import cartoon from "../images/landingCartoon.png";
+
 export {
   progress,
   detective,
@@ -39,4 +42,6 @@ export {
   aps,
   viasat,
   viasat2,
+  profPic,
+  cartoon,
 };
