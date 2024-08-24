@@ -57,7 +57,7 @@ const projectItems = [
   {
     projectName: "Bitcoin Hash & Miner",
     background: blockchain,
-    link: "/bitcoinHashMiner",
+    link: "/bitcoinHash&miner",
   },
   { projectName: "FloWeaver", background: boat, link: "/floWeaver" },
   { projectName: "Leetcode", background: leetcode, link: "/leetcode" },
