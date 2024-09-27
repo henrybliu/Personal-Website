@@ -30,7 +30,7 @@ const Cohere = () => {
           patients, providers, and payers.
         </p>
 
-        <h3>What I am working on</h3>
+        <h3>What I worked on</h3>
         <p>
           My primary focus was on feature development within the clinical
           operations workstream, the segment of the application most users
@@ -75,7 +75,7 @@ const Cohere = () => {
         <li> Grails</li>
         <li>ElasticSearch</li>
         <li> MongoDB</li>
-        <p>DevOps</p>
+        <p>Infrastructure/DevOps</p>
         <li>AWS</li>
         <li>Docker</li>
         <li>Kafka</li>
