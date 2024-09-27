@@ -32,8 +32,8 @@ const FloWeaver = () => {
         <li>Mapbox</li>
         <li>React</li>
 
-        <p>DevOps</p>
-        <li>Azure</li>
+        <p>Infrastructure</p>
+        <li>AWS</li>
       </div>
     </div>
   );

@@ -58,7 +58,7 @@ const Viasat2023 = () => {
         <li>PostgreSQL</li>
         <li>Flask</li>
         <li>Python</li>
-        <p>DevOps</p>
+        <p>Infrastructure</p>
         <li>AWS</li>
         <li>systemd</li>
         <li>Docker</li>

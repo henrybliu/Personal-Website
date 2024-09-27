@@ -32,7 +32,7 @@ const MyWebsite = () => {
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
-        <p>DevOps</p>
+        <p>Infrastructure</p>
         <li>Netlify CDN</li>
         <li>Netlify</li>
       </div>

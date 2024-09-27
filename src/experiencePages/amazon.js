@@ -53,7 +53,7 @@ const Amazon = () => {
         <p>Full Stack</p>
         <li>TypeScript</li>
         <li>React</li>
-        <p>Infrastructure</p>
+        <p>Infrastructure/DevOps</p>
         <li>AWS S3</li>
         <li>AWS CloudFront</li>
         <li>AWS CloudWatch</li>

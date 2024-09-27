@@ -56,7 +56,7 @@ const HenrysBarbershop = () => {
         <li>MongoDB Cloud</li>
         <li>Node.js</li>
         <li>Express</li>
-        <p>DevOps</p>
+        <p>Infrastructure</p>
         <li>Netlify</li>
         <li>Render</li>
 

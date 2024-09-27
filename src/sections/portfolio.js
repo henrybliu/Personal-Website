@@ -148,7 +148,7 @@ const skillItems = {
     "Firebase",
     "Flask",
   ],
-  devOps: ["AWS", "Azure", "Docker", "Netlify", "Render"],
+  infrastructure: ["AWS", "Azure", "Docker", "Netlify", "Render"],
   other: [
     "Git",
     "Perforce",

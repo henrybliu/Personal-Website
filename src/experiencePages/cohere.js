@@ -75,7 +75,7 @@ const Cohere = () => {
         <li> Grails</li>
         <li>ElasticSearch</li>
         <li> MongoDB</li>
-        <p>Infrastructure/DevOps</p>
+        <p>Infrastructure</p>
         <li>AWS</li>
         <li>Docker</li>
         <li>Kafka</li>
