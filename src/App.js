@@ -35,6 +35,7 @@ import {
   TarotCardGame,
   Everglow,
   WhackAMole,
+  AIGames,
 } from "./projectPages";
 
 const globalStyles = (
@@ -64,6 +65,7 @@ const projectRoutes = [
   { path: "/tarotCardGame", element: <TarotCardGame /> },
   { path: "/everglow", element: <Everglow /> },
   { path: "/whackAMole", element: <WhackAMole /> },
+  { path: "/AIGames", element: <AIGames /> },
 ];
 
 const experienceRoutes = [

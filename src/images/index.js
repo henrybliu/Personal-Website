@@ -10,6 +10,7 @@ import tarot from "../images/tarot.png";
 import heart from "../images/heart.png";
 import gears from "../images/gears.png";
 import boat from "../images/boat.png";
+import jester from "../images/jester.png";
 
 import seattleSpheres from "../images/seattleSpheres.png";
 import cohere from "../images/cohere.png";
@@ -44,4 +45,5 @@ export {
   viasat2,
   profPic,
   cartoon,
+  jester,
 };

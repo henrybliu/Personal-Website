@@ -29,6 +29,7 @@ import {
   aps,
   viasat,
   viasat2,
+  jester,
 } from "../images";
 
 const projectItems = [
@@ -38,6 +39,7 @@ const projectItems = [
     background: progress,
     link: "/ticTacToeModel",
   },
+  { projectName: "Games with AI", background: jester, link: "/AIGames" },
   {
     projectName: "This Website!",
     background: cooking,

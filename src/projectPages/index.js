@@ -12,6 +12,7 @@ import thetaTauWebsite from "./thetaTauWebsite";
 import TicTacToeModel from "./ticTacToeModel";
 import WhackAMole from "./whackAMole";
 import ThetaTauWebsite from "./thetaTauWebsite";
+import AIGames from "./AIGames";
 
 export {
   Bitcoin,
@@ -28,4 +29,5 @@ export {
   TicTacToeModel,
   WhackAMole,
   ThetaTauWebsite,
+  AIGames,
 };

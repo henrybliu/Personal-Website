@@ -12,6 +12,7 @@ import {
 import FadeInSection from "./fadeInSection";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <FooterContainer>
       <FadeInSection>
@@ -59,7 +60,7 @@ const Footer = () => {
               </a>
             </RightFooter>
           </TopFooter>
-          <h3> Henry Liu © 2024</h3>
+          <h3> Henry Liu © {currentYear}</h3>
         </FooterContent>
       </FadeInSection>
     </FooterContainer>
