@@ -77,7 +77,7 @@ const experienceItems = [
   {
     position: "Software Development Engineer Intern",
     company: "Amazon Web Services",
-    duration: "June 2024 - Present",
+    duration: "June 2024 - September 2024",
     background: seattleSpheres,
     link: "/amazon",
   },
