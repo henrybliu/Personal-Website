@@ -20,14 +20,15 @@ const About = () => {
             </AboutTitle>
 
             <h2>
-              I'm a Master's student at the University of California, San Diego
-              studying Machine Learning & Data Science with experience in full
-              stack development, network software engineering, and machine
+              I'm a Computer Engineering student at the University of
+              California, San Diego with experience in full stack development,
+              cloud infrastructure, network software engineering, and machine
               learning.
             </h2>
             <h2 id="bottomH2">
-              In my free time, I love snowboarding, soccer, and trying new
-              recipes. Currently, I am training for my first Spartan race!
+              In my free time, I love snowboarding, soccer, cutting hair, and
+              trying new recipes. Currently, I am working towards benching 225
+              lbs!
             </h2>
             <div id="buttons">
               <SecondaryButton
@@ -112,6 +113,8 @@ const LeftAbout = styled("div")({
   "& .imgContainer": {
     height: "auto",
     width: "85%",
+    borderRadius: "16px",
+    overflow: "hidden",
   },
 
   "& .imgContainer img": {

@@ -149,6 +149,8 @@ const skillItems = {
     "PostgreSQL",
     "Firebase",
     "Flask",
+    "Spring",
+    "Guice",
   ],
   infrastructure: ["AWS", "Azure", "Docker", "Netlify", "Render"],
   other: [
@@ -160,6 +162,7 @@ const skillItems = {
     "TensorFlow",
     "Sentry",
     "Kibana",
+    "Pandas",
   ],
 };
 

@@ -126,7 +126,7 @@ const LeftFooter = styled("div")({
 
   "& h1": {
     color: "#4361ee",
-    fontSize: "2rem",
+    fontSize: "1.5rem",
   },
 
   "& h2": {
