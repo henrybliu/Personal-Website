@@ -5,17 +5,11 @@ import { styled } from "@mui/system";
 const BrowseBtn = () => {
   return (
     <div>
-      <BtnContainer className="browseBtnContainer">
-        <Link
-          to="portfolio"
-          spy={true}
-          smooth={true}
-          offset={-90}
-          duration={500}
-        >
+      <Link to="portfolio" spy={true} smooth={true} offset={-90} duration={500}>
+        <BtnContainer className="browseBtnContainer">
           Browse Portfolio
-        </Link>
-      </BtnContainer>
+        </BtnContainer>
+      </Link>
     </div>
   );
 };

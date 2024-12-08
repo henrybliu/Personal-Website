@@ -3,11 +3,9 @@ import { styled } from "@mui/system";
 
 const SecondaryButton = ({ text, link }) => {
   return (
-    <Container className="btn2Container">
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        {text}
-      </a>
-    </Container>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <Container className="btn2Container">{text}</Container>
+    </a>
   );
 };
 
